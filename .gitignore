@@ -1,0 +1,18 @@
+# 著作物 — 絶対にコミットしない
+*.pdf
+
+# macOS
+.DS_Store
+
+# 実験が生成するデータ
+database
+*.db
+*.sst
+*.log
+segment*
+data/
+pgdata*/
+
+# 内部の作業ファイル — push しない
+CLAUDE.md
+PROGRESS.md
