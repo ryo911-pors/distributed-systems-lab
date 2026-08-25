@@ -16,3 +16,15 @@ pgdata*/
 # 内部の作業ファイル — push しない
 CLAUDE.md
 PROGRESS.md
+
+# 内部メモ
+GOAL.md
+
+# Python 仮想環境
+.venv/
+__pycache__/
+
+# 生データ（1回で17MB・再実行で作り直せる）— 本体は入れない
+# ただしイベント時刻(.json)とラグ(-lag.csv)は小さく、結果の裏付けになるので残す
+ch05-replication/results/*.csv
+!ch05-replication/results/*-lag.csv
